@@ -1,11 +1,11 @@
 import React, { createContext, useContext } from 'react';
 const Context = createContext();
 
-export function ColorProvider({ children, ...props }) {
+export function ContextProvider({ children, ...props }) {
 	return <Context.Provider value={{ ...props }}>{children}</Context.Provider>;
 }
 
-export function useColortContext() {
+export function useTooltContext() {
 	const context = useContext(Context);
 	return context;
 }

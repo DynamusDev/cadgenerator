@@ -10,8 +10,23 @@
     align-items: center;
 
     background: #DADADA;
-    overflow: auto !important;
+    overflow: auto;
     border-right: 1px solid #333;
     padding: 15px;
+
+    .table {
+      width: 100%;
+      height: 30px;
+
+      &__title {
+        font-size: 18px;
+        text-align: center;
+      }
+
+      &__content {
+        font-size: 15px;
+        text-align: center;
+      }
+    }
   }
 }

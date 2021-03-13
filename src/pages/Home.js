@@ -1,11 +1,13 @@
 import '../styles/pages/home.scss';
 import { Header, Side, Content, Button } from '../components'
+import icon from '../assets/swiss-army-knife.png'
 
 export function Home() {
   return (
     <div className="App">
       <Header
         title="CadGenerator"
+        icon={icon}
       />
       <div className="App__content">
         <Side >

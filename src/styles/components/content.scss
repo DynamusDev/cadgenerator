@@ -1,6 +1,56 @@
 .content {
   height: 100%;
   width: 80%;
-
   overflow: auto;
+  .container {
+    display: flex;
+    .options {
+      margin: 20px;
+      float: left;
+      padding-right: 40px;
+      input[type=radio] {
+        height: 1em;
+        label {
+          font-size: 14px;
+          font-weight: 600;
+          }
+      }
+      .size {
+  
+        h4 {
+          margin-bottom: 10px;
+          font-size: 1.2em;
+        }
+        .widhtlb, .heightlb {
+          width: 200px;
+        }
+        .labelfr {
+          width: 120px;
+        }
+        span {
+          float: right;
+        }
+      }
+    }
+    .view {
+      margin: 20px;
+      float: left;
+      h4 {
+        margin-bottom: 10px;
+        font-size: 1.5em;
+      }
+    }
+  }
+  .code {
+    margin: 5px;
+    float: left;
+    h4 {
+      margin: 5px;
+      font-size: 1.5em;
+    }
+    .children {
+      margin: 0 10px;
+    }
+  }
 }
+
